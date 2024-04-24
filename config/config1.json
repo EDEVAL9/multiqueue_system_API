@@ -1,0 +1,35 @@
+{
+  "development": {
+     "username": "valentine",
+    "password": "eLVxDT7FSFSUltWeI8LGP2woxiUOWnfM",
+    "database": "schedule_9ivy",
+    "host": "dpg-co2ifp0l6cac73bo7l2g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "valentine",
+    "password": "eLVxDT7FSFSUltWeI8LGP2woxiUOWnfM",
+    "database": "schedule_9ivy",
+    "host": "dpg-co2ifp0l6cac73bo7l2g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
